@@ -1,0 +1,74 @@
+[
+  {
+    "id": "CONF001",
+    "type": "Platform Conflict",
+    "severity": "High",
+    "trainA": "12001",
+    "trainB": "18001",
+    "platform": "1",
+    "time": "10:35",
+    "description": "Shatabdi Express and Kurukshetra Local both scheduled for Platform 1",
+    "recommendation": {
+      "action": "Priority to Shatabdi Express (High Priority)",
+      "details": "Allow 12001 to proceed first, hold 18001 for 5 minutes",
+      "estimatedDelay": 5,
+      "alternativePlatform": "3"
+    },
+    "status": "Pending",
+    "timestamp": "2025-09-29T10:30:00"
+  },
+  {
+    "id": "CONF002",
+    "type": "Signal Conflict",
+    "severity": "Medium",
+    "trainA": "12002",
+    "trainB": "16001",
+    "signal": "SIG_A204",
+    "time": "10:40",
+    "description": "Rajdhani Express and Freight Express approaching same signal",
+    "recommendation": {
+      "action": "Priority to Rajdhani Express",
+      "details": "Express train has higher priority over freight",
+      "estimatedDelay": 8,
+      "alternativeRoute": "Loop Line 2"
+    },
+    "status": "Pending",
+    "timestamp": "2025-09-29T10:35:00"
+  },
+  {
+    "id": "CONF003",
+    "type": "Track Occupancy",
+    "severity": "Critical",
+    "trainA": "12003",
+    "trainB": "18002",
+    "track": "Main Line 1",
+    "time": "10:45",
+    "description": "Golden Temple Mail and Panipat Passenger on collision course at Ambala Main Line",
+    "recommendation": {
+      "action": "Reroute Panipat Passenger to Loop Line",
+      "details": "Express train maintains main line priority",
+      "estimatedDelay": 12,
+      "alternativeRoute": "Loop Line 1"
+    },
+    "status": "Pending",
+    "timestamp": "2025-09-29T10:40:00"
+  },
+  {
+    "id": "CONF004",
+    "type": "Block Section",
+    "severity": "Medium",
+    "trainA": "22001",
+    "trainB": "16002",
+    "block": "BLK_157",
+    "time": "10:55",
+    "description": "Vande Bharat and Coal Freight in same block section",
+    "recommendation": {
+      "action": "Priority to Vande Bharat Express",
+      "details": "High-speed train gets precedence",
+      "estimatedDelay": 15,
+      "alternativeRoute": "Bypass Route C"
+    },
+    "status": "Pending",
+    "timestamp": "2025-09-29T10:50:00"
+  }
+]

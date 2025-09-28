@@ -1,0 +1,38 @@
+[
+  {
+    "id": "LOG001",
+    "timestamp": "2024-01-15T08:05:30Z",
+    "controller": "Rajesh Kumar",
+    "action": "Conflict Resolution",
+    "trainId": "12001",
+    "suggestion": "Priority to Shatabdi Express",
+    "actionTaken": "Accepted",
+    "overrideReason": null,
+    "impact": "5 min delay to train 18001",
+    "status": "Completed"
+  },
+  {
+    "id": "LOG002",
+    "timestamp": "2024-01-15T09:22:15Z",
+    "controller": "Rajesh Kumar",
+    "action": "Manual Override",
+    "trainId": "16001",
+    "suggestion": "Hold for 8 minutes",
+    "actionTaken": "Override - Immediate Proceed",
+    "overrideReason": "Emergency medical passenger transfer required",
+    "impact": "Reduced delay from 8 min to 2 min",
+    "status": "Completed"
+  },
+  {
+    "id": "LOG003",
+    "timestamp": "2024-01-15T10:47:45Z",
+    "controller": "Rajesh Kumar",
+    "action": "Route Change",
+    "trainId": "18002",
+    "suggestion": "Reroute to Loop Line",
+    "actionTaken": "Accepted",
+    "overrideReason": null,
+    "impact": "12 min delay avoided collision",
+    "status": "Completed"
+  }
+]
